@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -61,39 +62,36 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "Unity",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "csharp",
       icon: css,
     },
+    
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
+      name: "Varjo",
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "c++",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "MR",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
+      name: "ARCore",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "javascript",
+      icon: javascript,
     },
     {
-      name: "MongoDB",
+      name: "unrealengine",
       icon: mongodb,
     },
     {
@@ -105,66 +103,62 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "webXR",
       icon: figma,
     },
     {
-      name: "docker",
+      name: "vuforia",
       icon: docker,
+    },
+    {
+      name: "AndroidStudio",
+      icon: nodejs,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "XR Solution Architect",
+      company_name: "Tech Mahindra",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Technical Lead/Developer for UBI Bank Metaverse.",
+        "VR app for Collage of Military Engineering & M&M.",
+        "Metaverse Testing Automation.",
+        "Oman XR trainer program and Customer Interaction.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Software Development Engineer",
+      company_name: "HoloSuit",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2020 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lead Developer for YOUWECAN AR.",
+        "YOGA AR app, AI, Optimization.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Intern - AR/VR",
+      company_name: "Plutomen",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2019 – July 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented API integration (AWS, Asset Bundle, Addressables) in Unity..",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Founder Student XR community",
+      company_name: "XoRphilic",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mentored & Trained more than 1000 students in different XR oriented Skills.",
       ],
     },
   ];
@@ -172,46 +166,32 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "His ability to not give up until something was done right put him a notch above the rest of the team.",
+      name: "Yashas C.J.",
+      designation: "Test Architect / Scrum Master",
+      company: "HP",
+      image: "https://www.linkedin.com/in/yashascandadejayasimha/overlay/photo/",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Banking Metaverse",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        `Fore-fronted technical planning and development. Integrated banking-related transactions, in-house
+        developed chatbot, Medium to Dynamically switch contents, Customer acquisition, analytics, etc.`,
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "WebGl",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: " ChatBot Implementation",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +199,21 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Cricket AR app",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        `Created an AR & AI-enabled Android app for Yuvraj Singh Centre of Excellence (YSCE) which will
+        help students get mentor-ship virtually.`,
       tags: [
         {
-          name: "react",
+          name: "TensorFlowlight Unity plugin",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ARFoundation",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Adobe XD",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +221,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "AR Workbench",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        `In this IoT is incorporated with AR to give lifelike real-time feedback to the user.`,
       tags: [
         {
-          name: "nextjs",
+          name: "Vuforia",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "IoT",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
